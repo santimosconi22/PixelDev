@@ -253,11 +253,11 @@ ul{
 }
 
 .margin-top-5rem{
-  margin-top: 5rem;
+  margin-top: 5rem !important;
 }
 
 .margin-top-2rem{
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 
 .profile-card{
@@ -551,4 +551,16 @@ hr {
   .send-button {
     width: 99%;
   }
+}
+
+.font-size-icons{
+  font-size: 30px;
+}
+
+.icon-gap{
+  gap: 2rem;
+}
+
+.margin-top-3rem{
+  margin-top: 2.5rem !important;
 }
