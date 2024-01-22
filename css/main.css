@@ -564,3 +564,46 @@ hr {
 .margin-top-3rem{
   margin-top: 2.5rem !important;
 }
+
+.copy-text-white{
+  color: white;
+  font-family:'Oswald', sans-serif; 
+  display: flex;
+  justify-content: center;
+}
+
+.nombre-empresa{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  padding: 1rem;
+}
+
+.texto-testimonio{
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.clientes-testimonios{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2b2b2b;
+  width: 25rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #eceff133;
+  height: 30rem;
+}
+
+.clientes-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+  gap: 2rem;
+}
+
+
