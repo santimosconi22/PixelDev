@@ -256,7 +256,8 @@ ul {
   flex-wrap: wrap;
   gap: 1rem;
 }
-.profile-card .section-header-service {
+
+.section-header-service {
   text-align: center;
   margin: 0 auto;
   padding: 20px 0;
