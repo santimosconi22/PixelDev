@@ -256,7 +256,8 @@ ul {
   flex-wrap: wrap;
   gap: 1rem;
 }
-.profile-card .section-header-service {
+
+.section-header-service {
   text-align: center;
   margin: 0 auto;
   padding: 20px 0;
@@ -329,6 +330,24 @@ textarea {
   background-color: rgba(0, 0, 0, 0.0549019608);
   color: white;
   letter-spacing: 1px;
+}
+
+.form-control::-moz-placeholder, textarea::-moz-placeholder {
+  color: white;
+  font: 700 12px "Lato", sans-serif;
+  background-color: rgba(0, 0, 0, 0.0549019608);
+}
+
+.form-control::placeholder,
+textarea::placeholder {
+  color: white;
+  font: 700 12px "Lato", sans-serif;
+  background-color: rgba(0, 0, 0, 0.0549019608);
+}
+
+.form-control:focus,
+textarea:focus {
+  background-color: rgba(0, 0, 0, 0.0549019608);
 }
 
 .send-button {
@@ -579,4 +598,8 @@ hr {
   align-items: center;
   padding: 3rem;
   gap: 2rem;
+}
+
+.btn {
+  background-color: #524ccb;
 }/*# sourceMappingURL=main.css.map */
