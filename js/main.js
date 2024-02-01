@@ -53,9 +53,16 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
   e.target.elements.message.value = '';
 });
 
+function cambiarPestana(elemento) {
+  // Elimina la clase 'activa' de todos los elementos del menú
+  var elementosMenu = document.querySelectorAll('nav a');
+  elementosMenu.forEach(function(item) {
+      item.classList.remove('activa');
+  });
 
-
-
+  // Agrega la clase 'activa' al elemento actual
+  elemento.classList.add('activa');
+}
 
 
 

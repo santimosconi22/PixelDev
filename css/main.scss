@@ -25,9 +25,8 @@ body {
 
 
 
-.imagen-pixeldev {
-    margin-top: 5rem;
-    width: 300px !important;
+.pixeldev-imagotipo {
+    width: 600px 
 }
 
 .header .navbar {
@@ -102,7 +101,7 @@ ul {
   --flow-space: 0.5em;
   --hsl: var(--hue), var(--saturation), var(--lightness);
   flex: 1 1 14rem;
-  padding: 1.5em 2em;
+  padding: 1.5em 1.5em;
   display: grid;
   grid-template-rows: auto auto auto 1fr;
   align-items: start;
@@ -120,7 +119,7 @@ ul {
 }
 
 .card:nth-child(2) {
-  --hue: 243;
+  --hue: 54;
   --saturation: 95.9%;
   --lightness: 61.76%;
 }
@@ -237,9 +236,6 @@ ul{
   transition: 0.3s, background-size 0.3s 0.3s;
 }
 
-.pixeldev-imagotipo{
-  height: 8rem;
-}
 
 .text-color-white{
   color: white;
@@ -344,14 +340,15 @@ body {
 textarea {
   max-width: 400px;
   background-color: #0000000e;
-  color: white;
+  color: white !important;
+  font: 700 12px 'Lato', sans-serif;
   letter-spacing: 1px;
 }
 
 .form-control::placeholder,
 
 textarea::placeholder {
-  color: white;
+  color: white !important;
   font: 700 12px 'Lato', sans-serif;
   background-color: #0000000e;
 }
@@ -634,3 +631,57 @@ hr {
   background-color: #524ccb;
 }
 
+
+.circulo {
+  width: 200x;
+  height: 200px;
+  background-color: #524ccb;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  clip-path: polygon(100% 0, 0 0, 100% 100%);
+}
+
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+a:focus, a:active {
+  background-color: #4CAF50;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+  .pixeldev-imagotipo{
+   width: 400px ;
+ }
+
+ .descripcion-pixeldev{
+   margin-left: 1rem;
+ }
+
+ .clientes-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de tamaño igual */
+  gap: 20px; /* Espacio entre las columnas */
+ }
+}			
+
+@media only screen and (max-width: 730px) {
+  .pixeldev-imagotipo{
+   width: 400px ;
+ }
+
+ .descripcion-pixeldev{
+   margin-left: 1rem;
+ }
+
+ .clientes-section{
+   display: flex;
+   flex-direction: column;
+ }
+}																				
