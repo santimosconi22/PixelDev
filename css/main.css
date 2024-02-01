@@ -612,15 +612,6 @@ hr {
           clip-path: polygon(100% 0, 0 0, 100% 100%);
 }
 
-a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-a:focus, a:active {
-  background-color: #4CAF50;
-}
-
 @media only screen and (max-width: 1200px) {
   .pixeldev-imagotipo {
     width: 400px;
@@ -642,6 +633,10 @@ a:focus, a:active {
     margin-left: 1rem;
   }
   .clientes-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .section-cards {
     display: flex;
     flex-direction: column;
   }
