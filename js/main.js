@@ -1,3 +1,10 @@
+document.addEventListener("DOMContentLoaded", function() {
+  // Inicializa AOS
+  AOS.init();
+});
+
+
+
 console.clear();
 
 const cardsContainer = document.querySelector(".cards");
@@ -63,8 +70,4 @@ function cambiarPestana(elemento) {
   // Agrega la clase 'activa' al elemento actual
   elemento.classList.add('activa');
 }
-
-
-
-
 
